@@ -2,8 +2,11 @@
 ## Change this setting in sshconfig file and make sure these lines are uncommented
 
 Port 22
+
 PermitRootLogin no
+
 PasswordAuthentication yes
+
 PubkeyAuthentication yes
 
 
