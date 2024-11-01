@@ -1,0 +1,13 @@
+[Unit]
+Description=Ngrok Tunnel Service
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /usr/local/bin/start_ngrok.sh
+Restart=on-failure
+User=pk               #chnage username
+StandardOutput=append:/home/pk/ngrok.service.log
+StandardError=append:/home/pk/ngrok.service.log
+
+[Install]
+WantedBy=multi-user.target
