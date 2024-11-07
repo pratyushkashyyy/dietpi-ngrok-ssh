@@ -1,4 +1,9 @@
 # dietpi-ngrok-ssh
+
+##SETUP
+Run setup_ngrok.sh
+and follow below instructions
+
 ## Change this setting in sshconfig file and make sure these lines are uncommented
 
 Port 22
